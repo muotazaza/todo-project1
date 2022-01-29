@@ -1,12 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <style>
-    table,
-    th,
-    td {
+    table {
+        width: 60%;
+        border: 3px solid black;
+
+    }
+
+    th {
+        height: 60px;
         border: 3px solid black;
     }
+
+    td {
+        border: 2px solid black;
+        height: 20px;
+        width: 55px;
+    }
+
+    image {
+        padding: 20px;
+    }
+
+    footer {
+        background-color: rgb(27, 27, 27);
+        text-align: center;
+        color: #000;
+    }
 </style>
+
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        #footer {
+            background: red;
+            max-width: 100%;
+            margin-top: 960px;
+            margin-bottom: 2px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <ul>
+        <li style="float: lift;"><img imgid=img; src="./assets/logo.jpg" width="75"> </li>
+        <li style="float:center"><a href="#about">about</a></li>
+        <li style="float:center"><a href="#index">index</a></li>
+    </ul>
+
+</body>
+
+</html>
 
 <head>
     <meta charset="UTF-8">
@@ -16,21 +90,34 @@
 </head>
 
 <body>
-    <header>
-        <h1 style="color: red;font-size: 10px;">
-            ToDo
-        </h1>
-        <img src="assets/logo.jpg" alt="">
-        <p>home</p>
-        <p>about us</p>
+    <header background-color:gray>
+        <img src="assets/logo.jpg" width="50"></div>
+
+
     </header>
     <main>
+        <div> </div>
+        <h1> ToDo list </h1>
 
 
-        <table>
+
+
+        <table class="center">
             <tr>
                 <th>list</th>
                 <th>statues</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
             </tr>
             <tr>
                 <td></td>
@@ -40,8 +127,10 @@
         </table>
 
     </main>
+    <script src="./js/app.js"></script>
+
 
 </body>
-<footer> <small>&copy; Copyright 2022, ToDo</small> </footer>
+<footer background: red> <small>&copy; Copyright 2022, ToDo</small> </footer>
 
 </html>
