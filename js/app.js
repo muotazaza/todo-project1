@@ -16,8 +16,8 @@ if (age <= 0){
     console.log("your age is :-  "+age )
 
 }
-var message =alert("do you want skip welcome message")
-comfirm ("hello "); 
+var message =comfirm("do you want skip welcome message")
+//comfirm ("hello "); 
 
 // switch(gender){
 //     case male: 
@@ -41,3 +41,8 @@ console.log("this message to welcome you mr")
 } else {
     alert("plase check you gender mr/ms  "+name );
 }
+var uni =prompt("are you on universtiy ")
+if (prompt()==true){
+    alert("yes")
+}else
+alert("no")
