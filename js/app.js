@@ -16,8 +16,7 @@ if (age <= 0){
     console.log("your age is :-  "+age )
 
 }
-var message =alert("do you want skip welcome message")
-comfirm ("hello "); 
+ 
 
 // switch(gender){
 //     case male: 
@@ -41,3 +40,16 @@ console.log("this message to welcome you mr")
 } else {
     alert("plase check you gender mr/ms  "+name );
 }
+
+var userAnswer=[];
+var answer = prompt("do you end your task    /t yes/y or no/n ");
+userAnswer.push(answer);
+
+var answer = prompt("do you use w3shool to answer  /t answer yes/y or no/n  ");
+userAnswer.push(answer);
+
+var answer = prompt("do you Did you finish university   /t answer yes/y or no/n ");
+userAnswer.push(answer);
+
+var message =alert("do you want skip welcome message")
+comfirm ("hello ");
